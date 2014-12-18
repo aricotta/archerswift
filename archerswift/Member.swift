@@ -8,12 +8,13 @@
 
 import UIKit
 
-class Member {
+class Member: NSObject {
     
     /////
     ///// Properties
     /////
     
+    var memberId = ""
     var fName = ""
     var lName = ""
     var ssn = ""
@@ -27,5 +28,13 @@ class Member {
     var city = ""
     var state = ""
     var zip = ""
+    
+    var sponsorId = ""
+    
+    
+    
+    override init() {
+        super.init()
+    }
     
 }

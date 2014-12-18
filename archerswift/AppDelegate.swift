@@ -16,6 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /*
+        // add member to Firebase
+        let ref = Firebase(url: "https://archerswift.firebaseio.com/v1/members")
+        
+        let idRef = ref.childByAutoId() //unique memberId
+        idRef.setValue([
+            "memberId":idRef.key,
+            "fName":"Al",
+            "lName":"Ricotta",
+            "ssn":"123-45-6789",
+            "dob":"1/1/22",
+            "email":"al.ricotta@yahoo.com",
+            "phone":"716-222-2222",
+            "street1":"1234 Main Street",
+            "street2":"Apt 22",
+            "city":"Buffalo",
+            "state":"NY",
+            "zip":"14444",
+            "sponsorId":"id1"
+            ])
+        */
+        
         return true
     }
 

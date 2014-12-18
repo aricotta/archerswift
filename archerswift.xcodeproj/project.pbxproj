@@ -10,11 +10,12 @@
 		415640AE1A3F9C06006488A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415640AD1A3F9C06006488A0 /* AppDelegate.swift */; };
 		415640B51A3F9C06006488A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415640B31A3F9C06006488A0 /* Main.storyboard */; };
 		415640B71A3F9C06006488A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415640B61A3F9C06006488A0 /* Images.xcassets */; };
-		415640BA1A3F9C06006488A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 415640B81A3F9C06006488A0 /* LaunchScreen.xib */; };
 		415640C61A3F9C06006488A0 /* archerswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415640C51A3F9C06006488A0 /* archerswiftTests.swift */; };
 		415640D21A3F9D7E006488A0 /* MembersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415640D11A3F9D7E006488A0 /* MembersController.swift */; };
 		415640D41A3F9DE0006488A0 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415640D31A3F9DE0006488A0 /* Member.swift */; };
 		415640D61A3FCD5D006488A0 /* MemberAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415640D51A3FCD5D006488A0 /* MemberAddController.swift */; };
+		415F64971A411F8A00452C0E /* MemberMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F64961A411F8A00452C0E /* MemberMenuController.swift */; };
+		415F64991A41F07600452C0E /* SelectSponsorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F64981A41F07600452C0E /* SelectSponsorController.swift */; };
 		4163CF741A40919500F94D4A /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4163CF731A40919500F94D4A /* Firebase.framework */; };
 		4163CF761A4091A600F94D4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4163CF751A4091A600F94D4A /* Security.framework */; };
 		4163CF781A4091AE00F94D4A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4163CF771A4091AE00F94D4A /* SystemConfiguration.framework */; };
@@ -39,13 +40,14 @@
 		415640AD1A3F9C06006488A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		415640B41A3F9C06006488A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		415640B61A3F9C06006488A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = archerswift/Images.xcassets; sourceTree = "<group>"; };
-		415640B91A3F9C06006488A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		415640BF1A3F9C06006488A0 /* archerswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = archerswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415640C41A3F9C06006488A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415640C51A3F9C06006488A0 /* archerswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = archerswiftTests.swift; sourceTree = "<group>"; };
 		415640D11A3F9D7E006488A0 /* MembersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersController.swift; sourceTree = "<group>"; };
 		415640D31A3F9DE0006488A0 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Member.swift; path = archerswift/Member.swift; sourceTree = "<group>"; };
 		415640D51A3FCD5D006488A0 /* MemberAddController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberAddController.swift; sourceTree = "<group>"; };
+		415F64961A411F8A00452C0E /* MemberMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberMenuController.swift; sourceTree = "<group>"; };
+		415F64981A41F07600452C0E /* SelectSponsorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSponsorController.swift; sourceTree = "<group>"; };
 		4163CF731A40919500F94D4A /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		4163CF751A4091A600F94D4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4163CF771A4091AE00F94D4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,8 @@
 			children = (
 				415640D11A3F9D7E006488A0 /* MembersController.swift */,
 				415640D51A3FCD5D006488A0 /* MemberAddController.swift */,
+				415F64981A41F07600452C0E /* SelectSponsorController.swift */,
+				415F64961A411F8A00452C0E /* MemberMenuController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -162,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				415640B61A3F9C06006488A0 /* Images.xcassets */,
-				415640B81A3F9C06006488A0 /* LaunchScreen.xib */,
 				415640AC1A3F9C06006488A0 /* Info.plist */,
 				4163CF7F1A40929800F94D4A /* archerswift-Bridging-Header.h */,
 			);
@@ -250,7 +253,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				415640B51A3F9C06006488A0 /* Main.storyboard in Resources */,
-				415640BA1A3F9C06006488A0 /* LaunchScreen.xib in Resources */,
 				415640B71A3F9C06006488A0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415F64971A411F8A00452C0E /* MemberMenuController.swift in Sources */,
 				415640AE1A3F9C06006488A0 /* AppDelegate.swift in Sources */,
 				415640D61A3FCD5D006488A0 /* MemberAddController.swift in Sources */,
 				415640D41A3F9DE0006488A0 /* Member.swift in Sources */,
 				415640D21A3F9D7E006488A0 /* MembersController.swift in Sources */,
+				415F64991A41F07600452C0E /* SelectSponsorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +305,6 @@
 				415640B41A3F9C06006488A0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		415640B81A3F9C06006488A0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				415640B91A3F9C06006488A0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = archerswift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +402,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "archerswift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,6 +420,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "archerswift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
